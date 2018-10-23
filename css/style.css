@@ -1,0 +1,101 @@
+header{
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+header .bannerImg{
+    background: cover;
+}
+header nav{
+    width:100% !important;
+    position: fixed !important;
+    top:0px;
+    left:0px;
+    background-color: transparent !important;
+}
+header .mainH{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.whoWeAre h1,p{
+    text-align: center;
+}
+.whoWeAre .header{
+    margin:20px 0;
+}
+.whoWeAre .header .clearfix{
+    width:24px;
+    margin:auto;
+}
+.whoWeAre .dot{
+    border-radius: 50%;
+    width:0px;
+    height:0px;
+    border: 3px solid gray;
+    float: left;
+    margin:1px;
+}
+.whoWeAre .personPart>:nth-child(n){
+    margin:40px 0;
+}
+.whoWeAre .personPart .w-100{
+    margin:0;
+}
+.whoWeAre .progress{
+    height:20px;
+    border-radius: 0;
+}
+.whoWeAre .progress-bar{
+    height:20px;
+    background-color: #9f9acf;
+    border-radius: 0;
+}
+.ourWork{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.ourWork .workH{
+    display: grid;
+    margin: 5vh;
+    padding: 5vh;
+    padding-bottom:1vh;
+}
+.ourWork .workH h1,p{
+    margin:auto;
+}
+.ourWork .workBG{
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+}
+.ourWork .row{
+    padding: 2vh;
+    padding-top: 1vh;
+    margin: 2vh;
+}
+.ourWork .workBG img{
+    background-position: center center;
+    background: cover;
+}
+.weDoH h1,p{
+    text-align: center;
+}
+.whatWeDo .header .clearfix{
+    width:24px;
+    margin:auto;
+}
+.whatWeDo .dot{
+    border-radius: 50%;
+    width:0px;
+    height:0px;
+    border: 3px solid gray;
+    float: left;
+    margin:1px;
+}
